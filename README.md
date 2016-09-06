@@ -5,4 +5,4 @@ CSS files: Bootstrap + files derived from Roman Kirichik's Rhythm Project and mo
 
 JS & rs-plugin files: from Roman Kirichik's Rhythm Project
 
-ALL PHOTOGRAPHY WAS TAKEN AND EDITED BY ROHITH PERUMALLA
+ALL SKYLINE PHOTOGRAPHY WAS TAKEN AND EDITED BY ROHITH PERUMALLA
