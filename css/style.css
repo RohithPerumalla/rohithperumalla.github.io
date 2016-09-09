@@ -223,8 +223,6 @@ img:not([draggable]), embed, object, video{
 /* ==============================
    Page loader
    ============================== */
-
-
 .page-loader{
  	display:block;
 	width: 100%;
