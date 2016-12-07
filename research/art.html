@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Augmented Reality: Visual Tracking </title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="Rohith Perumalla">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="../images/favicon.ico">
+        <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/style-responsive.css">
+        <link rel="stylesheet" href="../css/animate.min.css">
+        <link rel="stylesheet" href="../css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="../css/owl.carousel.css">
+        <link rel="stylesheet" href="../css/magnific-popup.css">        
+
+        
+    </head>
+    <body class="appear-animate">
+        
+        <!-- Page Loader -->        
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <!-- End Page Loader -->
+        
+        <!-- Page Wrap -->
+        <div class="page" id="top">
+            
+            <!-- Navigation panel -->
+            <nav class="main-nav dark stick-fixed" style="background-color:#595959; ">
+                <div class="full-wrapper relative clearfix">
+                    <!-- Logo ( * your text or image into link tag *) -->
+                    <div class="inner-nav desktop-nav nav-logo-wrap local-scroll" style="float:left;">
+                        <ul class="clearlist">
+                            <li>
+                                <a href="../index.html" class="active"> ROHITH PERUMALLA </a>   
+                            </li>
+                    	</ul>
+                    </div>
+                    <div class="mobile-nav">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist">
+                            
+                            <li>
+                                <a href="../index.html" class=""> Home </a>   
+                            </li>
+                            
+                            <li>
+                                <a href="../about.html" class=""> About </a> 
+                            </li>
+                            
+                            <li>
+                            	<a href="../blog.html" class=""> Blog </a>
+                            </li>
+                            
+                            <li>
+                            	<a href="../research.html" class=""> Research </a>
+                            </li>
+                            
+                            <li>
+                            	<a href="../project.html" class=""> Projects </a>
+                            </li>
+                            
+                            <li>
+                                <a href="../aboutism.html" class="mn-has-sub " style="height: 50px; line-height: 50px;"> ISM <i class="fa fa-angle-down"></i></a>
+                                	<ul class="mn-sub mn-has-multi" style="display: none;">
+                                    	<li> 
+                                        	<a href="../aboutism.html">About ISM</a>
+                                        </li>
+                                        <li> 
+                                        	<a href="../mentor.html">About My Mentor</a>
+                                        </li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    
+					</div>
+                </div>
+                </nav>
+            
+            <!-- Content -->
+            <section class="page-section">
+                <div class="container relative">
+                    
+                    <div class="row">
+                        
+                        <!-- Content -->
+                        <div class="col-sm-10 col-sm-offset-1">
+                            
+                            <!-- Post -->
+                            <div class="blog-item mb-80 mb-xs-40">
+                                
+                                <!-- Text -->
+    							<div class="blog-item-body">
+    							    
+                                    <h1 class="mt-0 font-alt">Augmented Reality: Visual Tracking</h1>
+                                
+    							    <div class="lead">
+                                        <p>
+                                            Rohith Perumalla | 12/2/2016 <a href="../Files/research/art/Augmented Reality- Visual Tracking.pdf" class="btn btn-mod btn-circle right"><i class="fa fa-cloud-download"></i> Download Post </a>
+                                        </p> 
+                                         <div class="lead">
+                                        <p>
+                                            A quick look at the different types of tracking involved in Augmented Reality applications.
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <!-- End Text -->   
+                                    
+                                    <!-- Media Gallery -->
+                                    <div class="blog-media mt-40 mb-40 mb-xs-30">
+                                    	<image src="../images/research/art.jpg"/>
+                                    </div>
+    								<h4> Summary:</h4>
+                                    <p>Augmented Reality applications require exact information about the relative position of an object and their scenes, and if the object moves or turns in any degree. This means keeping real time tracking of all 6 directions of movement of an object and the three dimensional displacement of an object relative to the camera. There are many methods currently used to track objects in real time like Fiducials, Natural Features, and Detection. There are many pro’s and con’s to each of these.</p>
+                                    <h4> Analysis:</h4>
+        							<p>Augmented Reality is the concept of enhancing a user’s environment by superimposing objects either through wearable or handheld devices. A key part of Augmented Reality is having the augmented elements to properly react to the movement of the user and have the computer automatically reposition the object. For this repositioning and reacting to occur fluidly and realistically enough for the user to have a smooth experience Augmented Reality requires tracking of the object (especially in marker based Augmented Reality). Some methods that attempt to satisfy this need include mechanical trackers, magnetic trackers, Ultrasonic trackers, and Inertial trackers. All have their flaws from limited working environments to distortions from the metal in or temperature in their environments. Computer and camera based tracking seems to provide the most benefits, computer based tracking works using a variety of methods like Fiducials and Natural Features.</p>
+	<p>Vision based tracking can be broken down to two principal steps: first image processing to extract information from the environment and then analyzing the gathered by the scans. Fiducials are elements added the real environment, like markers or labels, that can be recognized by the camera to help with scanning. When scanning the environment, the addition of fiducials like markers help gather precise data from the environment. These markers can be designed to work with an ad hoc method to maximize its efficiency. Circle fiducials are also recommended due to the relatively invariant perspective distortion. While some fiducial systems run off ad hoc methods some systems are implementing machine learning to maximize accuracy and efficiency. Some fiducials use rectangular planes, making elements adapt or change depending on the distortion of the plane. Under good lighting situations Fiducials can be a low cost real time 3D tracking system satisfying Augmented Reality application needs.</p><p>
+	Another method often used is the use of natural features, in an environment there are many features that naturally appear and can be mapped and used for visual tracking. A form of this method commonly used is edge detection, in a natural environment there are many different edges. Two surfaces that meet form strong gradients with shadows and with gradient detection edges can be distinguished. With edge detection, it is naturally stable to lighting changes allowing it to be extremely flexible. Another form of natural features is dependent on information gathered by pixels from an object’s projection. A specific type of this tracking system is RAPid which was one of the first real time 3D tracking systems. It’s core function is based off the idea that in an image there are “control points” that lie on high contrast points indicating an edge from pixel data. These “control points” can be detected and predicted at real time allowing the fluid manipulation of the augmented element. However, RAPid can be tricked by weak contours making this form of pixel detection slightly unreliable. Another type of natural feature detection is texture based detection, a method that uses the camera input to track and map item to specific textures. Texture detection can be derived from optical flow, template matching, or interest point correspondences. The most effective form of texture tracking would be interest point detection and 2D matching. Interest point detection works by picking a few pixels -only a few to minimize the number of computations required- the selected points are different from their neighbors which allows easy recognition regardless of direction, noise, or distortion. However, when using any type of natural feature tracking if any point is not trackable all methods encounter errors and results in tracking failure, to avoid this, keyframes are introduced. Keyframes are registered beforehand, so when any new frame comes into the system the keyframe is tracked and the drifting of the points doesn’t affect the functionality of the system; but, in order for keyframes to work in real time it requires a quick implementation that is relatively insensitive to some distortions. There are other methods of Natural Feature tracking, however, edge detection and pixel analyzing have the most potential for real time tracking even though texture based detection could be more reliable.</p><p>
+	Visual tracking is imperative for Augmented Reality application, especially to have smooth immersive experiences for users. In order to have real time results with minimal restrictions and distortions Augmented Reality seems to work best with computer analyzed visual scenes. For the computer tracking there are many methods each with their own benefits and downfalls. Fiducials allow real time tracking with three dimensional displacements but require a physical object and proper lighting to work properly. Unlike Fiducials, that require markers, Natural Feature detectors work purely through algorithms either finding edges, with gradient detection or pixel data, or detecting textures and mapping an element to that unique texture. These Natural Feature detectors have the benefit or having increased stability with lighting changes, but are not always as accurate as Fiducials. Currently these methods are being improved and new methods are being developed for real time visual tracking. These visual tracking methods are vital for Augmented Reality applications, but it is safe to assume with the improvement of hardware and increased interest in augmented reality that a stable, fast, and efficient solution will be available in the near future.</p>
+                                    
+                                    <h5>Sources</h5>
+                                    <a href ="../Files/research/art/Vision Based 3D Tracking.pdf"><p> Fua, Pascal, and Vincent Lepetit. "Vision Based 3D Tracking and Pose Estimation for Mixed Reality." Emerging Technologies of Augmented Reality (2006): n. pag. Web.</p></a>           
+                                    <h5>Images</h5>
+                                    <a href="http://williamchyr.com/wp-content/uploads/2014/03/Edge_Detection-2014-03-31_19-49-50.png"><p>http://williamchyr.com/wp-content/uploads/2014/03/Edge_Detection-2014-03-31_19-49-50.png</p></a>
+    							</div>
+                                <!-- End Text -->
+    							
+    						</div>
+    						<!-- End Post -->
+						
+                        </div>
+                        <!-- End Content -->
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            
+           <!-- Footer -->
+            <div class="small-section bg-dark-lighter" style="background-color:#595959">
+            	<div class="align-center">        
+                    <!-- Footer Logo -->
+                    <div class="local-scroll mb-30 wow fadeInUp" data-wow-duration="1.5s">
+                        <a href="#top"><h3> ROHITH PERUMALLA </h3></a>
+                    </div>
+                    <!-- End Footer Logo -->
+                        <h3>
+	                    <div class="col-md-4">
+                            <a href="https://twitter.com/rohithperumalla"> 
+                             
+                              <h1><i class="fa fa-twitter"></i></h1>
+                          </a>
+                        </div>
+                        <div class="col-md-4">    
+                            <a href="https://www.linkedin.com/in/rohithperumalla"> 
+                              
+                              <h1><i class="fa fa-linkedin"></i></h1>
+                          </a>
+                        </div>
+                        <div class="col-md-4">    
+                            <a href="https://www.instagram.com/rohithperumalla/"> 
+                              
+                              <h1><i class="fa fa-instagram"></i></h1>
+                          </a>
+                        </div>
+                        </h3>
+                    <!-- End Social Links -->                    
+            <!-- End Footer Text --> 
+                    
+                 </div>
+                 
+                 
+                 <!-- Top Link -->
+                 <div class="local-scroll">
+                     <a href="#top" class="link-to-top"><i class="fa fa-caret-up"></i></a>
+                 </div>
+                 
+       		</div>
+            
+        </div>
+        <!-- End Page Wrap -->
+        
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@rohithperumalla">
+        <meta name="twitter:creator" content="@rohithperumalla">
+        <meta name="twitter:title" content="Augmented Reality: Visual Tracking">
+        <meta name="twitter:description" content="A quick look at the different types of tracking involved in Augmented Reality applications.">
+        <meta name="twitter:image" content="https://rohithperumalla.github.io/images/research/art.jpg">
+        <meta name="twitter:image" content="https://rohithperumalla.github.io/images/research/art.jpg">
+        
+        <!-- JS -->
+        <script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+        <script type="text/javascript" src="../js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.localScroll.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.viewport.mini.js"></script>
+        <script type="text/javascript" src="../js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="../js/jquery.appear.js"></script>
+        <script type="text/javascript" src="../js/jquery.sticky.js"></script>
+        <script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="../js/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="../js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/imagesloaded.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+        <!-- Replace test API Key "AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg" with your own one below 
+        **** You can get API Key here - https://developers.google.com/maps/documentation/javascript/get-api-key -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZsDkJFLS0b59q7cmW0EprwfcfUA8d9dg"></script>
+        <script type="text/javascript" src="../js/gmap3.min.js"></script>
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.simple-text-rotator.min.js"></script>
+        <script type="text/javascript" src="../js/all.js"></script>
+        <script type="text/javascript" src="../js/contact-form.js"></script>
+        <script type="text/javascript" src="../js/jquery.ajaxchimp.min.js"></script>        
+        <!--[if lt IE 10]><script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
+        
+    </body>
+</html>
